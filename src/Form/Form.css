@@ -1,0 +1,76 @@
+html, body{
+    margin:0px;
+    box-sizing: border-box;
+}
+.searchform button{
+    margin-left: 20%;
+    padding: 10px 20px;
+    background-color: rgb(21, 62, 150);
+    border-style: none;
+    margin-bottom: 10%;
+    border-radius: 2px;
+    font-family: monospace;
+}
+
+
+.searchbackground{
+    background-image: url('https://media.timeout.com/images/105628370/image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    filter: blur(5px);  
+}
+.search{
+    position: relative;
+}
+
+.searchform{
+  font-size: 20px;  
+  color: white;  
+  width: 300px;
+  padding: 0% 2%;
+  top: 8%;
+  left: 30px;
+  position: absolute;
+  margin: 0px;
+  background:rgb(0,0,0,0.7);
+  /* border-radius: 10px; */
+  font-family: monospace;
+
+}
+.searchform .reset{
+    margin-left: 3%;
+}
+input, select, label{
+    display: block;
+    margin:auto;
+    text-align: center;
+}
+select, input[type="text"]{
+    width: 180.0px;
+    height: 25px;
+}
+label{
+    margin-top: 30%;
+}select{
+    margin-bottom: 10%;
+}
+
+
+
+@media only screen and (min-width: 800px){
+.searchform{
+    font-size: 20px;  
+    color: white;  
+    width: 300px;
+    padding: 0% 15%;
+    top: 15%;
+    left: 25%;
+    position: absolute;
+    margin: 0px;
+    background:rgb(0,0,0,0.7);
+    /* border-radius: 10px; */
+    font-family: monospace;
+  
+  }
+}

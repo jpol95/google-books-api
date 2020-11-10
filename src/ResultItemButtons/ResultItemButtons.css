@@ -1,0 +1,13 @@
+html, body{
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.result .buy{
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+button:hover{
+    cursor: pointer;
+}

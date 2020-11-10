@@ -1,0 +1,45 @@
+html, body{
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.result{
+    margin-top: 5%;
+    border-top: 2px solid black;
+    padding: 0px 5%;
+}
+.result img{
+    width: 100px;
+}
+h2,h3{
+    text-align: center;
+}
+
+.resultrow{
+    display: flex;
+    align-items: center;
+}
+
+.result span{
+    margin-left: 40px;
+}
+
+.result button{
+    background-color: #4285F4;
+    border: none;
+    padding: 2% 3%;
+}
+
+.result .buy{
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+
+@media only screen and (min-width: 800px){
+.result button{
+    font-family: monospace;
+    padding: 1% 1.5%;
+    font-size: 30px;
+    }
+}
